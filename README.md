@@ -14,4 +14,7 @@ As a user,
 In order to validate my genius,
 I would like to receive feedback on each of my answers, in the form of 'correct' or 'incorrect'
 
-DIAGRAM HERE
+![screen shot 2018-09-26 at 10 51 10](https://user-images.githubusercontent.com/41509062/46072422-3ee27700-c17a-11e8-8851-e202d0217d2b.png)
+
+![screen shot 2018-09-26 at 10 51 23](https://user-images.githubusercontent.com/41509062/46072425-40ac3a80-c17a-11e8-8f24-a588ad797251.png)
+
