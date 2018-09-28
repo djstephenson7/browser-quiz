@@ -1,12 +1,14 @@
-require './app'
+# require './app'
+require './lib/questions'
 
-feature 'Displaying questions' do
-  scenario 'The user can see multiple choice questions' do
-    visit('/quiz')
+describe Questions do
+  describe '.all' do
+    it 'returns all questions' do
+      questions = Questions.all
 
-    expect(page).to have_content 'What is the capital of Cambodia?'
-    expect(page).to have_content 'When did the Vietnam War officially end?'
-    expect(page).to have_content 'What is the name of the Wonder of the World, located in Mexico?'
-    
+      expect(questions).to include('What is the capital of Cambodia?')
+      expect(questions).to include('When did the Vietnam War officially end?')
+      expect(questions).to include('What is the name of the Wonder of the World, located in Mexico?')
+    end
   end
 end
