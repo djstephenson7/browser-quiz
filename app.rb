@@ -14,6 +14,11 @@ class Quiz < Sinatra::Base
 
   get '/quiz' do
     @name = session[:player_name]
+    @questions = [
+      'What is the capital of Cambodia?',
+      'When did the Vietnam War officially end?',
+      'What is the name of the Wonder of the World, located in Mexico?'
+    ]
     erb :quiz
   end
 
