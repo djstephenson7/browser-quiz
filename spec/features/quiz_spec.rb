@@ -1,4 +1,3 @@
-# require './app'
 require './lib/questions'
 
 describe Questions do
