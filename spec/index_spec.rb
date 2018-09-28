@@ -10,8 +10,9 @@ describe Quiz do
   feature 'Greets player' do
     scenario 'Hi @name!' do
       sign_in
-      visit '/quiz'
+
       expect(page).to have_content 'Welcome, Daniel'
+      expect(page).to have_content "Let's play!"
     end
   end
 end

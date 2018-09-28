@@ -1,6 +1,20 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/danielstephenson/Projects/skills-workshops/week-4/browser-quiz/spec/features/quiz_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/danielstephenson/Projects/skills-workshops/week-4/browser-quiz/spec/index_spec.rb": [
         1,
         null,
@@ -14,6 +28,7 @@
         1,
         1,
         1,
+        null,
         1,
         1,
         null,
@@ -21,6 +36,6 @@
         null
       ]
     },
-    "timestamp": 1538047577
+    "timestamp": 1538125531
   }
 }

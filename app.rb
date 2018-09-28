@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class Quiz < Sinatra::Base
   enable :sessions
-  
+
   get '/' do
     erb :index
   end
@@ -16,4 +16,6 @@ class Quiz < Sinatra::Base
     @name = session[:player_name]
     erb :quiz
   end
+
+  run! if app_file == $0
 end
